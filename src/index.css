@@ -4,19 +4,23 @@ body {
 
 @font-face {
   font-family: "MonserrantRegular";
-  src: url(./assets/font/Montserrat-Regular.ttf);
+  src: local("MonserrantRegular"),
+    url(./assets/font/Montserrat-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "MonserrantLight";
-  src: url(./assets/font/Montserrat-Light.ttf);
+  src: local("MonserrantLight"),
+    url(./assets/font/Montserrat-Light.ttf) format("truetype");
 }
 @font-face {
   font-family: "MonserrantMedium";
-  src: url(./assets/font/Montserrat-Medium.ttf);
+  src: local("MonserrantMedium"),
+    url(./assets/font/Montserrat-Medium.ttf) format("truetype");
 }
 @font-face {
   font-family: "questrial";
-  src: url(./assets/font/Questrial-Regular.ttf);
+  src: local("questrial"),
+    url(./assets/font/Questrial-Regular.ttf) format("truetype");
 }
 
 /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

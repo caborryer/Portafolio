@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: "white",
         color: "#fc758c",
         fontSize: '12px',
+        fontFamily: 'MonserrantRegular',
         marginTop: '30px',
         borderRadius: "0px !important",
         "&:hover": {
@@ -26,10 +27,12 @@ const useStyles = makeStyles((theme) => ({
     }
     },
     titleText: {
-      fontSize: theme.spacing(6)
+      fontSize: theme.spacing(6),
+      fontFamily: 'questrial',
     },
     subTitleText: {
-      fontSize: '16px'
+      fontSize: '16px',
+      fontFamily: 'MonserrantRegular',
     }
   }));
 

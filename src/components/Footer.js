@@ -20,7 +20,8 @@ const useStyles = makeStyles({
             fontFamily: 'MonserrantRegular',
             '& span':{
                 fontSize: '14px',
-                color: '#fc758c'
+                color: '#fc758c',
+                fontFamily: 'MonserrantRegular',
             }
         }
 
