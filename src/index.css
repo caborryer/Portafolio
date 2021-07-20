@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "MonserrantRegular";
+  src: url(./assets/font/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "MonserrantLight";
+  src: url(./assets/font/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: "MonserrantMedium";
+  src: url(./assets/font/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: "questrial";
+  src: url(./assets/font/Questrial-Regular.ttf);
+}
+
+/* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
