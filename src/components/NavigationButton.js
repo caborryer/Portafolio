@@ -9,6 +9,7 @@ const useStyles = makeStyles((theme) => ({
         "& button": {
             color: "#C1C1C1",
             textTransform: "none",
+            fontFamily: 'MonserrantRegular',
             marginRight: "3px",
             "&:hover": {
                 backgroundColor: "#fc758c",
